@@ -1,13 +1,60 @@
-.App {
-  text-align: center;
+:root {
+  --img0: url('./petals white overlay 4 square.png'), url('./woman blur.png');
+  --img1: url('./petals black overlay 4 square.png'), url('./window.png');
+  --border-color: #4390e1;
+  --box-shadow: 0 2px 2px rgba(0, 90, 250, 0.05),
+    0 4px 4px rgba(0, 90, 250, 0.05), 0 8px 8px rgba(0, 90, 250, 0.05),
+    0 16px 16px rgba(0, 90, 250, 0.05);
+
+  box-sizing: border-box;
+
+}
+
+html, body {
+  height: 100%;
+  font-size: 100%;
+  font-family: monospace;
 }
 
 .background-image{
-  background-image: url('./petals white overlay 4 square.png'), url('./woman blur.png');
   background-blend-mode: normal;
   background-repeat: no-repeat, no-repeat;
   background-size: contain, contain;
   background-color: #FFF;
-  height: 99vh;
   background-position: center center;
+}
+
+.img0{
+  background-image: var(--img0);
+}
+
+.img1{
+  background-image: var(--img1);
+  background-color: black;
+}
+
+.container {
+  background-color: #f7f7f7;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex-grow: 1;
+  flex-basis: 10%;
+}
+
+.ui-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+button{
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border-color);
+  box-shadow: var(--box-shadow);
+  border-radius: 0.5rem;
+  margin: 0.5rem;
 }
