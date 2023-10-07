@@ -1,6 +1,10 @@
 :root {
-  --img0: url('./petals white overlay 4 square.png'), url('./woman blur.png');
-  --img1: url('./petals black overlay 4 square.png'), url('./window.png');
+  --img0: url('./grey-pale-petals-overlay-0.png'), url('./letter at santorini.jpg');
+  --img1: url('./grey-pale-petals-overlay-0.png'), url('./leaves.jpg');
+  --img2: url('./grey-pale-petals-overlay-0.png'), url('./Grace.jpg');
+  --img3: url('./grey-dark-petals-overlay-0.png'), url('./Grace.jpg');
+  --img4: url('./grey-dark-petals-overlay-0.png'), url('./leaves.jpg');
+  --img5: url('./grey-dark-petals-overlay-0.png'), url('./letter at santorini.jpg');
   --border-color: #4390e1;
   --box-shadow: 0 2px 2px rgba(0, 90, 250, 0.05),
     0 4px 4px rgba(0, 90, 250, 0.05), 0 8px 8px rgba(0, 90, 250, 0.05),
@@ -9,6 +13,8 @@
   box-sizing: border-box;
 
 }
+
+/* was './petals gray overlay 4 square.png' */
 
 html, body {
   height: 100%;
@@ -26,11 +32,35 @@ html, body {
 
 .img0{
   background-image: var(--img0);
+  /* background-color: rgb(82, 82, 82); */
+  background-color: rgb(181, 181, 181);
 }
 
 .img1{
   background-image: var(--img1);
-  background-color: black;
+  background-color: rgb(82, 82, 82);
+  background-color: rgb(181, 181, 181);
+}
+
+.img2{
+  background-image: var(--img2);
+  background-color: rgb(82, 82, 82);
+  background-color: rgb(181, 181, 181);
+}
+
+.img3{
+  background-image: var(--img3);
+  background-color: rgb(77, 77, 77);
+}
+
+.img4{
+  background-image: var(--img4);
+  background-color: rgb(77, 77, 77);
+}
+
+.img5{
+  background-image: var(--img5);
+  background-color: rgb(77, 77, 77);
 }
 
 .container {

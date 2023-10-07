@@ -4,7 +4,7 @@ import { UI } from './UI';
 
 function App() {
   const [imageNum, setImageNum] = useState(0);
-  const imgCount = 2;
+  const imgCount = 6;
 
   const [isStarted, setIsStarted] = useState(false);
   const [isVoPlayed, setVoPlayed] = useState(false);
