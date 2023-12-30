@@ -5,6 +5,7 @@ import { UI } from './UI';
 function App() {
   const [imageNum, setImageNum] = useState(0);
   const imgCount = 6;
+  // TODO: get imgCount dynamically
 
   const [isStarted, setIsStarted] = useState(false);
   const [isVoPlayed, setVoPlayed] = useState(false);
