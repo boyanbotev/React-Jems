@@ -12,15 +12,15 @@ function App() {
 
   const jemSynth = new Audio(require("./jems night synth louder.wav"));
   const horns = new Audio(require("./jems night brass melody louder.wav"));
-  const vo = new Audio(require('./lusseryan quote.mp3'));
+  const vo = new Audio(require('./voice-over-0.mp3'));
   const vocal = new Audio(require('./Jems synth 3.mp3'));
 
   function unlockVO(){
     if (!isVoPlayed)
     {
-      // start(vo);
+      start(vo);
       setVoPlayed(true);
-      start(vocal, true);
+      //start(vocal, true);
     }
   }
 
