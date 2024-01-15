@@ -14,8 +14,6 @@
 
 }
 
-/* was './petals gray overlay 4 square.png' */
-
 html, body {
   height: 100%;
   font-size: 100%;
@@ -76,7 +74,7 @@ html, body {
 }
 
 .container {
-  background-color: #f7f7f7;
+  background-color: rgb(77, 77, 77);
   height: 100vh;
   display: flex;
   flex-direction: column;

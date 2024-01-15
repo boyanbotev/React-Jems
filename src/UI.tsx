@@ -19,7 +19,7 @@ export function UI(props: UIProps) {
   }
   else {
     return (
-      <Button handler={props.startGame}>START</Button>
+      <Button handler={props.startGame}>Start Demo</Button>
     );
   }
 }
